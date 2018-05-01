@@ -1,0 +1,23 @@
+{
+  "name": "teamcitytest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webdriver": "node node_modules/protractor/bin/webdriver-manager update && node node_modules/protractor/bin/webdriver-manager start",
+    "test": "node node_modules/protractor/bin/protractor protractor.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h23github/teamcityTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h23github/teamcityTest/issues"
+  },
+  "homepage": "https://github.com/h23github/teamcityTest#readme",
+  "dependencies": {
+    "protractor": "^5.3.1"
+  }
+}
