@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "webdriver": "node node_modules/protractor/bin/webdriver-manager update && node node_modules/protractor/bin/webdriver-manager start",
-    "onlytest": "node node_modules/protractor/bin/protractor protractor.conf.js",
-    "test": "start node node_modules/protractor/bin/webdriver-manager update && node node_modules/protractor/bin/webdriver-manager start | start node node_modules/protractor/bin/protractor protractor.conf.js"
+    "test": "node test-conf.js"
   },
   "repository": {
     "type": "git",
