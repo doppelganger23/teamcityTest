@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node test-conf.js"
+    "test": "node test-conf.js",
+    "posttest": "allure generate allure-results --clean -o allure-report || true"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/h23github/teamcityTest#readme",
   "dependencies": {
+    "allure-commandline": "^2.5.0",
+    "jasmine-allure-reporter": "^1.0.2",
     "protractor": "^5.3.1"
   }
 }

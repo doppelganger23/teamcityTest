@@ -3,3 +3,7 @@
 
 # Node dependency directory
 node_modules/
+
+# Allure report directories
+allure-results/
+allure-report/
