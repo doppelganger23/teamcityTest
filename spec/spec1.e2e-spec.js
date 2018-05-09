@@ -2,7 +2,7 @@ describe('angularjs homepage', function() {
     it('should greet the named user', function() {
         // Load the AngularJS homepage.
         browser.get('http://www.angularjs.org');
-
+        throw new Error(1);
         // Find the element with ng-model matching 'yourName' - this will
         // find the <input type="text" ng-model="yourName"/> element - and then
         // type 'Julie' into it.
